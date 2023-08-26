@@ -27,6 +27,7 @@ This is represented below as a directed graph with the directed edge representin
 ![image](https://user-images.githubusercontent.com/54183085/110007387-9c625100-7d40-11eb-9128-29073ea4b3f3.png)
 
 **Payment Methods**
+
 Each Bank only supports a set of modes of payments and can _make_ or _receive_ payments **only** via those. Only **World Bank suppports all modes of payments**.
 In our current example we have three payment modes :
 1. Google_Pay
