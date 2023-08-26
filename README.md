@@ -1,7 +1,13 @@
 # Cash Flow Minimizer System
-This system minimizes the **number of transactions** among multiple banks in the different corners of the world that use **different modes of payment**. There is one world bank (with all payment modes) to act as an intermediary between banks that have no common mode of payment.
+
+-> This project is based on data structures and algorithms to solve the problem of cash flow optimization by using **graphs, heaps, and multisets**. The project's objective is to determine the smallest number of transactions necessary to settle the debts between a group of banks/people.
+-> It employs a graph data format to represent both the **vertices—banks themselves** and the **edges—debts between banks**. The programme then uses the idea of **heaps to determine which bank have the highest and lowest debt loads**. The procedure then generates transactions between these two parties, updates the debts, and continues until all debts are paid.
+-> **To keep track of transactions and their sums, the project also uses multisets**, a data structure that enables storing numerous instances of the same information. The multisets assist in determining the least number of transactions necessary to pay off the debts.
+-> The project serves as an example of the power and adaptability of DSA in dealing with practical issues. The project is especially helpful in situations where it is difficult to determine the minimum number of transactions necessary to settle the debts between a group of people/banks.
 
 # Getting Started
+This system minimizes the **number of transactions** among multiple banks in the different corners of the world that use **different modes of payment**. There is one world bank (with all payment modes) to act as an intermediary between banks that have no common mode of payment.
+
 Let's take an example. say we have the following banks:
 1. Bank_of_America (World bank)
 2. Wells_Fargo
